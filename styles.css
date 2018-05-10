@@ -1,0 +1,123 @@
+*
+{
+    font-family: "Helvetica";
+    font-size: 14px;
+}
+
+.wrapper
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: calc(800px - (30px * 2));
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.header
+{
+    border-bottom: 1px solid #8b8b8b;
+    position: relative;
+    min-height: 60px;
+}
+
+.profile_pic
+{
+    width: 45%;
+    border-radius: 20px;
+    margin: 5%;
+    float: right;
+    border: 2px solid black;
+    position: relative;
+}
+
+.title
+{
+    color: black;
+    float: left;
+    margin: 15px 0px 0px 10px;
+    font-size: 30px;
+}
+
+.classes
+{
+    list-style: none;
+}
+
+.classes li ul
+{
+    margin: 10px;
+}
+.main
+{
+    background-image: linear-gradient(rgb(0,0,0.5),rgb(0,0,0.5)), url(goldenGate.jpg);
+    height: auto;
+}
+
+.info
+{
+    margin-left: 10px;
+    font-size: 
+}
+
+h4
+{
+    font-size: 20px;
+}
+
+.main_nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+}
+
+.main_nav li
+{
+    display: inline-block;
+}
+
+.main_nav li a
+{
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 15px;
+}
+
+
+.main_nav li.active a
+{
+    border: 1px solid black;
+}
+
+.main_nav li a:hover
+{
+    border: 1px solid black;
+}
+
+.footer
+{
+    border-top: 1px solid #8b8b8b;
+}
+
+.footer_heading
+{
+    margin-bottom: 15px;
+}
+
+.footer_links .main_nav
+{
+    float: left;
+    list-style: none;
+    margin: 25px;
+}
+
+.links
+{
+    margin: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
