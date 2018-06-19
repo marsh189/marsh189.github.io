@@ -1,10 +1,28 @@
+html, body
+{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
 .wrapper
 {
     margin-left: auto;
     margin-right: auto;
     max-width: calc(800px - (30px * 2));
     margin-top: 15px;
-    margin-bottom: 15px;   
+    margin-bottom: 15px;  
+}
+
+.main_content
+{
+    padding-bottom: 150px;
+}
+
+.full_page
+{
+    min-height: 100%;
+    position: relative;
 }
 
 .header
@@ -89,69 +107,111 @@ h4
     font-size: 20px;
 }
 
-.main_nav
+nav
 { /*header, footer */
-    float: right;
+    float: right;    
+}
+
+nav .main_nav li
+{ /*header, footer */
+    float: left;
+    position: relative;
     list-style: none;
-    
 }
 
-.main_nav li
-{ /*header, footer */
-    display: inline-block;
-}
-
-.main_nav li a
+nav .main_nav li a
 {
-    color: black;
+    display: block;
+    padding: 22px 20px 5px;
     text-decoration: none;
-    padding: 5px 20px;
     font-size: 15px;
+    color: black;
 }
 
-.project
+nav .main_nav li ul
 {
-    list-style: none;
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 2px solid black;
+    padding: 5px;
 }
 
-.main_nav li.active a
+nav .main_nav li:hover ul
 {
-    border: 1px solid black;
+    display: block;
 }
 
-.main_nav li a:hover
+nav .main_nav li ul li
 {
-    border: 1px solid black;
+   width: 180px;
+    border-radius: 4px;
+}
+
+
+nav .main_nav li ul li a
+{
+    padding: 8px 14px;
+}
+
+nav .main_nav li ul li a:hover
+{
+    padding: 8px 14px;
+    background-color: lightgray;
+}
+
+.description
+{
+    font-size: 14px;
+}
+
+.projects li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
 }
 
 .footer
 {
     height: 125px;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    position: absolute;
-    padding-left: 50px;
+    position: fixed;
     border-top: 1px solid #8b8b8b;
     background-color: dimgrey;
 }
 
 .footer_heading
 {
-    margin-bottom: 15px;
+    margin: 5px 0px 15px;
 }
 
-.footer_links .main_nav
-{
+.footer_links
+{ /*footer */
+    float: left;    
+}
+
+.footer_links .footer_nav li
+{ /*footer */
     float: left;
     list-style: none;
-    padding: 0px;
 }
 
-.links
+.footer_links .footer_nav li a
 {
-    margin: 15px;
+    display: block;
+    padding: 22px 20px 5px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     color: black;
+}
+
+.footer_nav
+{
+    margin-top: 0px;
+    padding: 0px;
 }
 
 .project_header
@@ -173,4 +233,24 @@ h2
 p
 {
     font-size: 18px;
+}
+
+.gallery
+{
+    margin: 10px auto;
+}
+
+.gallery img
+{
+    width: 230px;
+    padding: 5px;
+    height: 120px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.gallery img:hover
+{
+    filter: grayscale(0);
+    transform: scale(1.1);
 }
