@@ -124,6 +124,10 @@ nav .main_nav li
     list-style: none;
 }
 
+nav .main_nav li:hover
+{ /*header, footer */
+    transform: scale(1.1);
+}
 nav .main_nav li a
 {
     display: block;
@@ -133,12 +137,14 @@ nav .main_nav li a
     color: black;
 }
 
+
 nav .main_nav li ul
 {
     display: none;
     position: absolute;
     background-color: white;
     border: 2px solid black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 5px;
 }
 
@@ -157,12 +163,6 @@ nav .main_nav li ul li
 nav .main_nav li ul li a
 {
     padding: 8px 14px;
-}
-
-nav .main_nav li ul li a:hover
-{
-    padding: 8px 14px;
-    background-color: lightgray;
 }
 
 .description
@@ -251,7 +251,16 @@ p
     padding: 5px;
     height: 120px;
     filter: grayscale(100%);
-    transition: 1s;
+    transition: 0.25s;
+}
+
+.gallery .tall_img
+{
+    height: 220px;
+    padding: 7px;
+    width: 130px;
+    filter: grayscale(100%);
+    transition: 0.25s;
 }
 
 .gallery img:hover
