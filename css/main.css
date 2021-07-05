@@ -335,9 +335,10 @@ ul#scene{
     background: white;
     color: black;
 }
-/*
+
 #about{
     width: 100%;
+    height: 80vh;
     box-sizing: border-box;
     display: flex;
     align-items: center;
@@ -345,15 +346,11 @@ ul#scene{
     padding: 50px 5% 0px 5%;
 }
 
-.about-text{
-    width: 50%;
-}
-
 .about-text p{
     font-size: 1.2rem;
     color: black;
 }
-*/
+
 
 #skills{
     width: 100%;
