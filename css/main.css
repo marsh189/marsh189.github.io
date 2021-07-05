@@ -1,0 +1,578 @@
+/*RESET CSS BEGIN*/
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+/*RESET CSS END*/
+
+
+/*HELPER CLASS BEGIN*/
+
+.alignLeft {
+    float: left;
+}
+
+.alignRight {
+    float: right;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+strong,
+b {
+    font-weight: 700;
+}
+
+em,
+i {
+    font-style: italic;
+}
+
+p,
+ul li,
+ol li {
+    font-size: 16px;
+    line-height: 23px;
+    margin: 0 0 20px 0;
+}
+
+ul li,
+ol li {
+    margin-bottom: 10px;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+/*HELPER CLASS END*/
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+
+.wrapper{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+/*Nav Bar Start*/
+header{
+    background-color: transparent;
+    width: 100%;
+    position: relative;
+}
+header.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.75);
+    transform: translateY(-200%);
+    transition: 0.4s;
+    z-index: 5;
+}
+
+body.scroll header.sticky{
+    transform: translateY(0);
+}
+
+
+header .logo a h1{
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
+    color: white;
+    max-width: 500px;
+
+    
+}
+header .logo a{
+    text-decoration: none;
+}
+
+.nav-wrapper{
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0 10px;
+    margin-bottom: 0;
+}
+
+nav ul li a{
+    font-size: 17px;
+    line-height: 22px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding-bottom: 3px;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    
+    border-bottom: 1px solid #ffffff;
+}
+/*Nav Bar End */
+
+
+/*Parallax Page Styles Start*/
+
+.cover-main{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.75)), url('../images/hero-bg.jpg') right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+ul#scene li.name {
+    text-align: center;
+    font-size: 40px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+}
+
+ul#scene li.title {
+    text-align: center;
+    font-size: 30px;
+    line-height: 35px;
+    color: white;
+    width: 100%;
+    margin-top: 60px;
+}
+
+ul#scene{
+    margin-top: 100px;
+}
+
+.btn{
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.resume-btn,
+.contact-btn{
+    margin: 0 auto;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.resume-btn{
+    margin-right: 30px;
+}
+
+.contact-btn{
+    margin-left: 30px;
+}
+
+.resume-btn:hover,
+.contact-btn:hover{
+    background: white;
+    color: black;
+}
+/*
+#about{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 5% 0px 5%;
+}
+
+.about-text{
+    width: 50%;
+}
+
+.about-text p{
+    font-size: 1.2rem;
+    color: black;
+}
+*/
+
+#skills{
+    width: 100%;
+    height: 80vh;
+    box-sizing: border-box;
+    padding: 50px 5% 0px 5%;
+    background-color: black;
+}
+
+h2.sub-title-white{
+    position: relative;
+    display: block;
+    margin: 70px auto;
+    text-align: center;
+    font-size: 35px;
+    line-height: 40px;
+    color: white
+}
+
+h2.sub-title-white::after{
+    display: block;
+    height: 2px;
+    background-color: white;
+    content: "";
+    width: 100px;
+    margin: 30px auto 0 auto;
+}
+
+.s-box-container{
+    margin-top: 30px;
+}
+
+.skill-box{
+    display: flex;
+    margin: 25px 0px;
+}
+
+.s-box-icon{
+    margin-right: 12px;
+}
+.s-box-icon i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f011;
+    font-size: 1.1rem;
+    color: royalblue;
+}
+
+.skill-box h2{
+    color: #ffffff;
+    margin: 0px;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.skill-box p{
+    font-size: 1.2rem;
+    color: rgba(251,251,251,0.90);
+}
+
+
+/*Parallax Page Styles End*/
+
+/* Masonry JS Styles Start */
+
+.masonry-grid{
+    position: relative;
+}
+
+.grid{
+    margin: 0 auto;
+}
+
+.grid-item{
+    width: 450px;
+    margin-bottom: 10px;
+}
+
+.tall-img{
+    height: 680px;
+}
+
+h2.sub-title{
+    position: relative;
+    display: block;
+    margin: 70px auto;
+    text-align: center;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+h2.sub-title::after{
+    display: block;
+    height: 2px;
+    background-color: black;
+    content: "";
+    width: 100px;
+    margin: 30px auto 0 auto;
+}
+
+/* Masonry JS Styles End */
+
+/*Footer Start*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social a{
+    width:50px;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: rgba(230, 230, 230,0.5);
+    margin: 15px;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.social a:hover{
+    background-color: lightgrey;
+    transition: all ease 0.5s;
+}
+
+/*Footer End*/
+
+/*Responsive Menu Start*/
+
+@media only screen and (max-width: 768px){
+    .menu-trigger{
+        background: url('../images/hamburger-icon.svg') no-repeat center / cover;
+        width: 35px;
+        height: 35px;
+        display: block;
+        z-index: 10;
+        position: absolute;
+        right: 10px;
+        top: 15px;
+    }
+    
+    .main-overlay{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background: rgba(0,0,0,0.75);
+        z-index: 5;
+        display: none;
+    }
+    
+    .main-overlay::after{
+        background: url('../images/close-icon.svg') no-repeat center / cover;
+        width: 35px;
+        height: 35px;
+        display: block;
+        content: "";
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 20;
+    }
+    
+    .menu{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background: #131313;
+        width: 100%;
+        max-width: 300px;
+        z-index: 30;
+        transform: translate3d(-100%,0,0);
+        transition: 0.3s;
+    }
+    
+    nav.nav-wrapper ul li{
+        display: block;
+        margin-top: 20px;
+        padding: 0;
+        padding-bottom: 
+    }
+    
+    nav.nav-wrapper ul li a{
+        font-size: 18px;
+        line-height: 23px;
+    }
+    nav.nav-wrapper ul li a:hover{
+        border-color: transparent;
+    }
+    
+    body.menu-is-active .menu{
+        transform: translate3d(0,0,0);
+        display: block;
+        padding: 0 15px;
+    }
+    
+    body.menu-is-active .main-overlay{
+        display: block;
+    }
+    
+    body.menu-is-active .menu-trigger{
+        display: none;
+    }
+}
+
+/*Responsive Menu End*/

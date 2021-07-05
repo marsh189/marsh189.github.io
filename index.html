@@ -1,57 +1,152 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-    
-    <head>
-        <title>Matthew Marshall</title>
-        <link rel="stylesheet" type="text/css" href="styles.css"/>
 
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--<meta property="og:title" content="" />-->
+    <!--<meta property="og:url" content="" />-->
+    <!--<meta property="og:image" content="" />-->
+    <!--<meta property="og:site_name" content="" />-->
+    <!--<meta property="og:description" content="" />-->
+    <title>Matthew Marshall</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     
-    <body>
-        <header class="header">
-            <div class="wrapper">
-                <h1 class="title">Matthew Marshall</h1>
-                <nav>
-                    <ul class = "main_nav">
-                        <li><a href="index.html"> HOME </a></li>
-                        <li><a href="education.html"> EDUCATION </a></li>
-                        <li><a href="projects.html"> PROJECTS </a>
-                            <ul>
-                                <li><a href="DeerMe.html">Deer Me</a></li>
-                                <li><a href="GiftGiving.html">Gift Giving</a></li>
-                                <li><a href="hohh.html">The House on Haunted Hollow</a></li>
-                                <li><a href="Battleship.html">Battleship</a></li>
-                                <li><a href="ShootingCircles.html">Shooting Circles</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="Matthew%20Marshall.pdf" target="_blank"> CV </a></li>
-                    </ul>
-                </nav>
-            </div>
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/53f9c0e484.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="css/main.css">
+    <!--[if lt IE 9]>
+            <script src="scripts/html5shiv.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    <div class="main-overlay js-main-overlay"></div>
+    <section class="cover-main" id="home">
+        <header>
+            <nav class="nav-wrapper">
+                <div class="logo">
+                    <a href="#"><h1 class="logo_text">M M</h1></a>
+                </div>
+                <ul class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">My Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="menu-trigger js-menu-trigger"></div>
         </header>
-         <div class= "main_content">
-            <div class="wrapper">
-                <div class="home_page">
-                    <img class ="profile_pic" src="Matthew%20Marshall.jpg">
-                    <h4>About Me</h4>
-                    <p> I studied Computer Science with a minor in Game Development Programming at Chapman University. I received my degree in May of 2018. I worked for Chapman University's IS&T department as a Web Development Assistant. As a Web Development Assistant, I had the task of improving and maintaining the school's web and mobile applications using ASP.NET and C#. </p>
+        
+        <div class="wrapper">
+            <ul id="scene" 
+                data-invert-x="false" data-invert-y="false"
+                data-scalar-x="7" data-scalar-y="7" 
+                data-friction-x="0.1" data-friction-y="0.1" 
+                data-origin-x="0.5" data-origin-y="0.5">
+                
+                <li class="layer name" data-depth="0.90">Matthew Marshall</li>
+                <li class="layer title" data-depth="0.50">Software Engineer</li>
+                <li class="layer btn btn-main" data-depth="0.30">
+                    <a href="#" class="resume-btn">Resume</a>
+                    <a href="#" class="contact-btn">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!--
+    <section id="about">
+        <div class="about-text">
+            <h2 class="sub-title">About Me</h2>
+            <p> I studied Computer Science with a minor in Game Development Programming at Chapman University. I received my degree in May of 2018. I worked for Chapman University's IS&T department as a Web Development Assistant. As a Web Development Assistant, I had the task of improving and maintaining the school's web and mobile applications using ASP.NET and C#. </p>
             <p>Throughout my game development studies, I enjoyed working on the User Interface and triggered effects. As a gamer, I have seen games that do not have an interface that is up to par with the game, so while I make my own games, I make sure the menus look just as nice and work just as well as the rest of the game. I also love making the player trigger certain events. This includes the player killing an enemy with a gun, picking up an item, or falling to their deaths. Most of my game developing experience has been with Unity, although I have some experience using Unreal and their blueprint system.</p>
-            <p>I currently work as a Lead Istructor for MVCode in the San Francisco Bay Area. As an instructor, I help kids learn the fundamentals of Computer Science. We start off by teaching them how to build games and projects in JavaScript Processing (p5.js). They then can move on to some more advanced aspects of CS, such as Web Design (HTML/CSS) or Game Development (Unity).</p> 
+            <p>I currently work as a Lead Istructor for MVCode in the San Francisco Bay Area. As an instructor, I help kids learn the fundamentals of Computer Science. We start off by teaching them how to build games and projects in JavaScript Processing (p5.js). They then can move on to some more advanced aspects of CS, such as Web Design (HTML/CSS) or Game Development (Unity).</p>                   
+        </div>
+        <div class="about-img"><img src="images/MatthewMarshall.jpg"></div>
+    </section>
+    -->
+    <section id="skills">
+            <!--skills-text-section-->
+            <h2 class="sub-title-white">My Skills</h2>
+            <div class="skills-text">
+                <div class="s-box-container">
+                    <!--skill-box-->
+                    <div class="skill-box">
+                        <!--box-icon-->
+                        <div class="s-box-icon">
+                            <i class="fab fa-unity"></i>
+                        </div>
+                        <!--box--text-->
+                        <div class="s-box-text">
+                            <h2>Unity 3D</h2>
+                            <p>Between college and personal projects, I have been working with Unity for 5 years.</p>
+                        </div>
+                    </div>
+                    
+                    <!--skill-box-->
+                    <div class="skill-box">
+                        <!--box-icon-->
+                        <div class="s-box-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <!--box--text-->
+                        <div class="s-box-text">
+                            <h2>SQL Server</h2>
+                            <p>I worked on with SQL Server as a databse for the web forms I created  as a Web Developer.</p>
+                        </div>
+                    </div>
+                    
+                    <!--skill-box-->
+                    <div class="skill-box">
+                        <!--box-icon-->
+                        <div class="s-box-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <!--box--text-->
+                        <div class="s-box-text">
+                            <h2>Programming Languages</h2>
+                            <p>Throughout my programming experience, I have gained more of a proficiency in C# and Java. I have also used C++, Python, Swift, JavaScript, HTML, and CSS.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
+    
+    <section class="masonry-grid" id="projects">
+        <h2 class="sub-title">My Projects</h2>
+        
+        <div class="grid">
+            <div class="grid-item"><img src="images/battleship.png" alt=""></div>
+            <div class="grid-item"><img src="images/DeerMe.PNG" alt=""></div>
+            <div class="grid-item tall-img"><img src="images/gift.PNG" alt=""></div>
+            <div class="grid-item"><img src="images/shootingCircles.png" alt=""></div>
+            <div class="grid-item"><img src="images/hohh.png" alt=""></div>
         </div>
         
-        <div class="footer">
-            <div class="wrapper">
-                <h4 class = "footer_heading">Resources</h4>
-                <div class="footer_links">
-                    <ul class = "footer_nav">
-                        <li><a href="https://www.linkedin.com/in/matthew-marshall-7304b8111/" target="_blank"> LinkedIn </a></li>
-                        <li><a href="https://github.com/marsh189" target="_blank"> Github </a></li>
-                        <li><a href="mailto:mamarshall44@gmail.com"> Email </a></li>
-                    </ul>
-                </div>
-            </div>
+        
+    </section>
+    
+    <footer id="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/matthew-marshall-7304b8111/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/marsh189"><i class="fab fa-github"></i></a>
         </div>
-    </body>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
+    <script src="scripts/parallax.min.js"></script>
+    <script src="scripts/masonry.js"></script>
+    <script src="scripts/main.js"></script>
+    
+    <script>
+        var scene = document.getElementById('scene');
+        var parallax = new Parallax(scene);
+    </script>
+</body>
+
 </html>
