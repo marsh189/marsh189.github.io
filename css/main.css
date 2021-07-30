@@ -347,7 +347,7 @@ ul#scene{
 }
 
 .about-text p{
-    font-size: 1.2rem;
+    font-size: 15px;
     color: black;
 }
 
@@ -493,7 +493,18 @@ footer{
 /*Footer End*/
 
 /*Responsive Menu Start*/
-
+@media only screen and (max-width: 600px){
+    #about{
+        width: 100vh;
+    }
+    .about-text .sub-title{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .about-text p{
+        font-size: 12px;
+    }
+}
 @media only screen and (max-width: 768px){
     .menu-trigger{
         background: url('../images/hamburger-icon.svg') no-repeat center / cover;
