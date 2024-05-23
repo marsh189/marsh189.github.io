@@ -176,7 +176,7 @@ export const projects = [
     description:
       'This was a simple Top-Down Shooter built as a lesson plan for young kids to learn how to use Unity for Game Development. In this lesson, students learned how to create simple menus, object collisions, health bars, and more.',
     image:
-      'https://private-user-images.githubusercontent.com/11845697/312229389-1b3a72e3-810b-4939-8010-b91ce9ba4e67.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTY0OTkyNTgsIm5iZiI6MTcxNjQ5ODk1OCwicGF0aCI6Ii8xMTg0NTY5Ny8zMTIyMjkzODktMWIzYTcyZTMtODEwYi00OTM5LTgwMTAtYjkxY2U5YmE0ZTY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTIzVDIxMTU1OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTkyZmQzMzA0ZmUzNThlYzhiOWQ2NjU5NjE0YjJiMjNlODJmMzkxMDE5MDljMjMyMTk4ZmFlNDYxZDYzNDE0MzUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.3uFSUrA8KX7emN8SvMRQ7ztACpTydkX2Avr6ZixGpgY',
+      'https://github.com/marsh189/MVCode-Work/blob/master/shooting.png?raw=true',
     tags: ['Unity', 'C#'],
     category: 'games',
     github: 'https://github.com/marsh189/MVCode-Work',
