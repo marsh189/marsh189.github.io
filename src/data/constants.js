@@ -215,7 +215,7 @@ export const projects = [
     description:
       'A FrontEnd Mentor challenge I completed where I was tasked to create a component that included the Social Links for a profile.',
     image:
-      'https://github.com/marsh189/social-link-profile/blob/main/src/design/social-links.png?raw=true',
+      'https://github.com/marsh189/social-link-profile/blob/main/src/design/destkop-design.jpg?raw=true',
     tags: ['React', 'JavaScript', 'HTML', 'CSS'],
     category: 'web',
     github: 'https://github.com/marsh189/social-link-profile',
