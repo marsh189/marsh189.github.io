@@ -132,7 +132,7 @@ export const skills = [
 
 export const projects = [
   {
-    id: 9,
+    id: 1,
     title: 'House On Haunted Hollow',
     date: 'Jun 2016 - Oct 2016',
     description:
@@ -145,7 +145,7 @@ export const projects = [
     webapp: '',
   },
   {
-    id: 0,
+    id: 2,
     title: 'Battleship',
     date: 'Mar 2016 - Apr 2016',
     description:
@@ -158,7 +158,7 @@ export const projects = [
     webapp: '',
   },
   {
-    id: 1,
+    id: 3,
     title: 'Deer Me',
     date: 'Feb 2018 - Apr 2018',
     description:
@@ -170,7 +170,7 @@ export const projects = [
     webapp: 'https://deer-me-demo.netlify.app/',
   },
   {
-    id: 2,
+    id: 4,
     title: 'Shooting Circles',
     date: 'Jan 2020 Feb 2020',
     description:
@@ -183,7 +183,7 @@ export const projects = [
     webapp: 'https://shooting-circles-demo.netlify.app/',
   },
   {
-    id: 3,
+    id: 5,
     title: 'Gift Giving',
     date: 'Apr 2018 - May 2018',
     description:
@@ -196,7 +196,7 @@ export const projects = [
     webapp: '',
   },
   {
-    id: 10,
+    id: 6,
     title: 'Top Selling Books Page',
     date: 'Apr 2024',
     description:
@@ -207,5 +207,18 @@ export const projects = [
     category: 'web',
     github: 'https://github.com/marsh189/top-selling-book-copy',
     webapp: 'https://react-amazon-top-sellers.netlify.app/',
+  },
+  {
+    id: 7,
+    title: 'Social Links Profile Component',
+    date: 'Jun 2024',
+    description:
+      'A FrontEnd Mentor challenge I completed where I was tasked to create a component that included the Social Links for a profile.',
+    image:
+      'https://github.com/marsh189/social-link-profile/blob/main/src/design/social-links.png?raw=true',
+    tags: ['React', 'JavaScript', 'HTML', 'CSS'],
+    category: 'web',
+    github: 'https://github.com/marsh189/social-link-profile',
+    webapp: 'https://marsh189.github.io/social-link-profile/',
   },
 ]
