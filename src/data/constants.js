@@ -5,7 +5,7 @@ export const Bio = {
     'I am a motivated and hard working programmer, always eager to take on new challenges. I am someone who thrives in team environmets and will always look to level up my skills. With a passion for learning, I am confident in my ability to produce high-quality results.',
   github: 'https://github.com/marsh189',
   resume:
-    'https://drive.google.com/file/d/1S_OehHvvsUUl8anLnJ8H9Eq49-RDQpQA/view?usp=sharing',
+    'https://drive.google.com/file/d/1P2vuoi9NA-yB8EthhUEp30I-SUE-LHR1/view',
   linkedin: 'https://www.linkedin.com/in/matt-a-marshall/',
 }
 
@@ -220,5 +220,18 @@ export const projects = [
     category: 'web',
     github: 'https://github.com/marsh189/social-link-profile',
     webapp: 'https://marsh189.github.io/social-link-profile/',
+  },
+  {
+    id: 8,
+    title: 'Recipe Web Page',
+    date: 'Jun 2024',
+    description:
+      'A FrontEnd Mentor challenge I completed where I was tasked to create a web page for a simple omelette recipe.',
+    image:
+      'https://github.com/marsh189/recipe-page/blob/main/src/design/recipe-page.png?raw=true',
+    tags: ['React', 'JavaScript', 'HTML', 'CSS'],
+    category: 'web',
+    github: 'https://github.com/marsh189/recipe-page',
+    webapp: 'https://marsh189.github.io/recipe-page/',
   },
 ]
