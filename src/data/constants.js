@@ -7,7 +7,7 @@ export const Bio = {
   resume:
     'https://drive.google.com/file/d/1P2vuoi9NA-yB8EthhUEp30I-SUE-LHR1/view',
   linkedin: 'https://www.linkedin.com/in/matt-a-marshall/',
-}
+};
 
 export const skills = [
   {
@@ -31,11 +31,6 @@ export const skills = [
         name: 'JavaScript',
         image:
           'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png',
-      },
-      {
-        name: 'React',
-        image:
-          'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg',
       },
     ],
   },
@@ -65,6 +60,16 @@ export const skills = [
         name: 'ASP.Net',
         image:
           'https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg',
+      },
+      {
+        name: 'express',
+        image:
+          'https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/express/express-original.svg',
+      },
+      {
+        name: 'socket.io',
+        image:
+          'https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/socketio/socketio-original.svg',
       },
     ],
   },
@@ -128,7 +133,7 @@ export const skills = [
       },
     ],
   },
-]
+];
 
 export const projects = [
   {
@@ -234,4 +239,25 @@ export const projects = [
     github: 'https://github.com/marsh189/recipe-page',
     webapp: 'https://marsh189.github.io/recipe-page/',
   },
-]
+  {
+    id: 9,
+    title: 'React Chat App',
+    date: 'Mar 2025',
+    description:
+      'A challenging project used to learn how to create a node.js Server for a React based Chat Application.',
+    image:
+      'https://raw.githubusercontent.com/marsh189/react-chat-app/refs/heads/main/chat-app.png?raw=true',
+    tags: [
+      'React',
+      'JavaScript',
+      'HTML',
+      'CSS',
+      'NodeJS',
+      'Exress',
+      'socket.io',
+    ],
+    category: 'web',
+    github: 'https://github.com/marsh189/react-chat-app',
+    webapp: 'https://react-chat-app-78bd.onrender.com/',
+  },
+];
