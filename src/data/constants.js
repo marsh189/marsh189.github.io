@@ -5,7 +5,7 @@ export const Bio = {
     'I am a motivated and hard working programmer, always eager to take on new challenges. I am someone who thrives in team environmets and will always look to level up my skills. With a passion for learning, I am confident in my ability to produce high-quality results.',
   github: 'https://github.com/marsh189',
   resume:
-    'https://drive.google.com/file/d/1LIZVsxS9MBHKyoX99lUKcDbRZZSLvf3-/view?usp=sharing',
+    'https://drive.google.com/file/d/1FzVj3Y27N7X-BV_gDObnmqYoXNLvSicZ/view?usp=sharing',
   linkedin: 'https://www.linkedin.com/in/matt-a-marshall/',
 };
 
