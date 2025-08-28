@@ -275,7 +275,7 @@ export const projects = [
     title: 'Task Manager App',
     date: 'Aug 2025',
     description:
-      'A tutorial project used to learn how to make web applications using Python and Flask. Users are able to add and remove tasks from the list that are being stored in a SQLAlchemy database.',
+      'A tutorial project used to learn how to make web applications using Python and Flask. Users are able to add and remove tasks from the list and is using SQLAlchemy to store the list in a SQLite local database.',
     image:
       'https://raw.githubusercontent.com/marsh189/python-task-manager/refs/heads/main/TaskManager.png',
     tags: ['Python', 'Flask', 'HTML', 'CSS', 'SQL', 'Sass'],
