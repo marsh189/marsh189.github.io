@@ -32,6 +32,11 @@ export const skills = [
         image:
           'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png',
       },
+      {
+        name: 'Sass',
+        image:
+          'https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/sass/sass-original.svg',
+      },
     ],
   },
   {
@@ -70,6 +75,11 @@ export const skills = [
         name: 'socket.io',
         image:
           'https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/socketio/socketio-original.svg',
+      },
+      {
+        name: 'Flask',
+        image:
+          'https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/flask/flask-original.svg',
       },
     ],
   },
@@ -259,5 +269,18 @@ export const projects = [
     category: 'web',
     github: 'https://github.com/marsh189/react-chat-app',
     webapp: 'https://react-chat-app-78bd.onrender.com/',
+  },
+  {
+    id: 9,
+    title: 'Task Manager App',
+    date: 'Aug 2025',
+    description:
+      'A tutorial project used to learn how to make web applications using Python and Flask. Users are able to add and remove tasks from the list that are being stored in a SQLAlchemy database.',
+    image:
+      'https://raw.githubusercontent.com/marsh189/python-task-manager/refs/heads/main/TaskManager.png',
+    tags: ['Python', 'Flask', 'HTML', 'CSS', 'SQL', 'Sass'],
+    category: 'web',
+    github: 'https://github.com/marsh189/python-task-manager',
+    webapp: 'https://python-task-manager.onrender.com',
   },
 ];
